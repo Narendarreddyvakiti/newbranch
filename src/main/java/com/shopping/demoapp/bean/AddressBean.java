@@ -9,9 +9,16 @@ public class AddressBean {
 	private String street;
 	private String city;
 	private String state;
-	private String mobileNumber;
-	
-	
+	private String mobileNum;
+
+	public String getMobileNum() {
+		return mobileNum;
+	}
+
+	public void setMobileNum(String mobileNum) {
+		this.mobileNum = mobileNum;
+	}
+
 	public int getAddId() {
 		return addId;
 	}
@@ -42,14 +49,5 @@ public class AddressBean {
 	public void setState(String state) {
 		this.state = state;
 	}
-	public String getMobileNumber() {
-		return mobileNumber;
-	}
-	public void setMobileNumber(String mobileNumber) {
-		this.mobileNumber = mobileNumber;
-	}
-	
-	
-	
-	
+
 }
