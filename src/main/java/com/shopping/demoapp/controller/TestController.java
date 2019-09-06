@@ -21,7 +21,7 @@ public class TestController {
 	@GetMapping(path = "/getemployeedetails")
 	public List<Employee> getEmployeeDetails() {
 		List<Employee> employee = testService.getEmployeesDetails();
-		System.out.println("hellokhjg");
+		System.out.println("Hello this is TestController");
 		return employee;
 	}
 }
